@@ -1,2 +1,2 @@
 # Timer-Countdown
-A javascript encrypted timer countdown for speaker entry
+A javascript encrypted timer countdown for event beginning
