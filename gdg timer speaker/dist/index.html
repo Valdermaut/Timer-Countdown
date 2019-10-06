@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>GDG COCHIN</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="count"></div>
+    <div class="count1"></div>
+
+
+
+
+    <script id="count-template" type="text/template">
+        <span class="current top <%= currentSize %>"><%= time %></span>
+        <span class="next top <%= nextSize %>"><%= nextTime %></span>
+        <span class="current bottom <%= currentSize %>"><%= time %></span>
+        <span class="next bottom <%= nextSize %>"><%= nextTime %></span>
+    </script>
+    <!-- partial -->
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js'></script>
+    <script src="./script.js"></script>
+
+</body>
+
+</html>
